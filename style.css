@@ -1,0 +1,76 @@
+body{
+    background-image: url(mini-profile-bg-02.jpg);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.xat{
+    width: 650px;
+    height: 400px;
+    background-color: rgba(225, 225, 225, 0.8);
+}
+.inp1{
+    width: 350px;
+    height: 35px;
+    margin-left: 40px;
+    margin-top: 40px;
+    border-bottom: 1px solid grey;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    font-size: 17px;
+    text-indent: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inp1:focus{
+    outline: none;
+    border: 4px solid #AFEEEE;
+}
+.inp2{
+    width: 350px;
+    height: 35px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-bottom: 1px solid grey;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    color: grey;
+    font-size: 17px;
+    text-indent: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inp2:focus{
+    border: 4px solid #AFEEEE;
+    outline: none;    
+}
+.text{
+    width: 350px;
+    height: 100px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-bottom: 1px solid grey;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    font-size: 17px;
+    text-indent: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text:focus{
+    border: 4px solid #AFEEEE;
+    outline: none;    
+}
+.sub{
+    width: 115px;
+    height: 55px;   
+    background-color: darkgrey;
+    font-size: 18px;
+    color: white;
+    border: none;
+    margin-left: 275px;
+}
+.sub:hover{
+    background-color: gray;
+}
